@@ -1,0 +1,222 @@
+ body {
+	background-color: #e6eaec;
+ }
+ .dashboard {
+	 margin-top: 0px!important;
+	font-family: 'Arial';
+ }
+ .panel-heading {
+	background-color: #e4e4e4!important;
+	color: black!important;
+	font-size: 1.6em!important;
+	font-weight: bolder;
+	padding: 16px!important;
+    border-bottom: 1px solid #cecece!important;
+    margin-bottom: 0px!important;
+	border-radius: 20px 20px 0px 0px;
+ }
+ .panel-heading:hover {
+	background-color: #d9d9d9!important
+ }
+ .panel-heading.panel-collapse {
+	 border-radius: 20px;
+	 background-color: #d2d2d2!important
+ }
+ h3.panel-title {
+    font-weight: bold;
+}
+ .widget.panel {
+	margin: 16px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,.2), 0px 2px 4px 0px rgba(0,0,0,.19);
+	overflow: hidden;
+}
+
+.welcomeMessage {
+	padding: 16px;
+	font-size: 1.2em;
+}
+.cardWidget {
+	list-style: none;
+}
+.wiLabel {
+    margin-left: 8px;
+}
+.homePageLi {
+	border-bottom: solid 1px #cecece;
+	padding: 16px;
+	list-style: none;
+}
+.homePageLi:hover {
+	background-color: #f5f5f5;
+	cursor: pointer;
+}
+.headerRow {
+	font-size: 1.4em;
+}
+.listDate {
+	display: inline;
+	color: grey;
+}
+.liBody {
+	margin-top: 8px;
+}
+.cardWidget a {
+    color: black;
+    text-decoration: none;
+}
+.cardWidget {
+    padding-left: 0;
+	margin-bottom: 0;
+}
+#closeWelcome {
+	float: right;
+}
+.roTile {
+	padding: 16px;
+	border-top: 1px solid #cecece;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/*
+.topRequests.horizontal {
+    text-align: center;
+}
+.favRequests.horizontal {
+    text-align: center;
+}
+*/
+.roArea.horizontal {
+    display: inline-block;
+	width: 100%;
+	
+}
+.roTile a {
+	color: #000000;
+	text-decoration:none;
+	font-size: 1.2em;
+}
+.roTile a:hover {
+	text-decoration: underline;
+}
+.roTile.horizontal {
+    border: 0;
+    width: 30%;
+	display: inline-block;
+	padding: 16px 8px;
+	text-align: center;
+}
+.roTile.horizontal img {
+    margin-bottom: 8px;
+}
+.roTile.vertical img {
+    margin-right: 16px;
+}
+.vertical .imgHolder {
+	display: inline;
+}
+.horizontal .imgHolder {
+	text-align: center;
+}
+
+.pagingArea {
+	float:right;
+	padding-right: 16px;
+}
+.pagingArea i {
+    margin: 8px 8px 12px 8px;
+    font-size: 1.4em;
+    vertical-align: middle;
+	color: rgba(0,0,0,0.8);
+}
+.pagingArea i.disabled {
+	color: rgba(0,0,0,0.4);
+}
+.liArticle {
+	list-style: none;
+	padding: 16px;
+	border-top: 1px solid #cecece;
+}
+.liArticle:hover {
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+.listBody {
+  line-height: .1;
+}
+.liTitle {
+  font-size: 1.6em!important;
+  margin-bottom: -8px;
+}
+.listDate {
+  display: inline;
+  color: grey;
+}
+.topArticles ul {
+	list-style: none;
+}
+
+.homeSearch {
+	padding: 16px;
+}
+.listImage {
+	width: 32px;
+	height: 32px;
+	padding: 8px;
+	display:inline-block;
+}
+.homeListResult {
+	display:inline-block;
+}
+.homeListResult .k-state-default {
+	display: inline-block;
+}
+.catCard {
+	padding: 16px;
+	font-size: 1.3em;
+}
+.catCard:hover {
+	cursor: pointer;
+	background-color: #f5f5f5;
+	
+}
+.serviceCard {
+	padding: 16px;
+	font-size: 1.3em;
+}
+.browseTop {
+	padding: 8px;
+	border-bottom: 1px solid #cecece;
+} 
+.cardArea a {
+    text-decoration: none;
+    color: black;
+}
+.cardArea img {
+    margin-right: 16px;
+}
+.bc {
+	margin: 8px;
+	text-decoration: underline;
+}
+.bc:hover {
+	cursor: pointer;
+}
+.link-replace {
+	text-align: center;
+	margin: 8px;
+	padding: 8px 8px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+.link-replace i {
+	font-size: 3em;
+	padding: 16px 32px;
+}
+.link-replace:hover {
+	cursor: pointer;
+}
+.afterClose {
+	margin-top: 16px!important;
+}
