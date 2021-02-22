@@ -162,7 +162,7 @@
 			href: '/CustomSpace/homeWidgets/style.css',
 		}).appendTo('head');
 		
-		var widgetsToLoad = ["homeCat", "homeSearch", "link-replace", "requests", "topArticles", "wiCardWidget"];
+		var widgetsToLoad = ["homeCat", "homeSearch", "requests", "topArticles", "wiCardWidget"];
 		widgetsToLoad.forEach(function(widget){
 			loadScript("/CustomSpace/homeWidgets/" + widget + ".js", [""]);
 		});
